@@ -1,0 +1,128 @@
+@import url(./reset.css);
+
+body {
+  background-color: black;
+}
+
+.banner {
+  height: 450px;
+  background-size: cover;
+  background-image: linear-gradient(
+      0deg,
+      rgba(38, 38, 38, 1) 0%,
+      rgba(0, 67, 199, 0.5522584033613445) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(../img/banner.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-color: #33a8db;
+  color: white;
+}
+
+.logo img {
+  margin: 40px;
+}
+
+.banner button {
+  background: none;
+  padding: 15px;
+  margin: 10px 0px 20px 0px;
+  border: solid 2px;
+  color: #33a8db;
+}
+
+.banner h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+#course-content {
+  color: aliceblue;
+  height: 325px;
+  text-align: center;
+  background-attachment: fixed;
+  padding: 40px;
+}
+
+#course-content h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  color: #33a8db;
+}
+
+.module-list {
+  display: flex;
+  width: 100%;
+}
+.module {
+  background: linear-gradient(0deg, #252525, #252525),
+    linear-gradient(0deg, #33a8db, #33a8db);
+  margin: 15px;
+  padding: 10px;
+  border: solid;
+  border-radius: 20px;
+  width: 50%;
+  display: inline-block;
+  border-color: #33a8db;
+}
+
+.module span {
+  color: #33a8db;
+}
+
+#transform-world {
+  background-image: url(../img/woman-code.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+}
+
+#transform-world p {
+  color: white;
+  width: 80px;
+  font-size: 20px;
+  padding: 50px 20px 40px 80px;
+}
+
+#professional-challenges {
+  color: white;
+  text-align: center;
+}
+
+#professional-challenges h2 {
+  font-size: 32px;
+  padding: 50px;
+  width: 100%;
+  color: #33a8db;
+}
+
+#professional-challenges p {
+  height: 76px;
+  padding: 100px;
+}
+
+footer {
+  color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(14, 76, 97);
+  background: linear-gradient(
+    0deg,
+    rgba(14, 76, 97, 1) 0%,
+    rgba(0, 0, 0, 1) 78%
+  );
+}
+
+.dio-logo {
+}
+
+footer a {
+  text-decoration: none;
+  color: #33a8db;
+}
